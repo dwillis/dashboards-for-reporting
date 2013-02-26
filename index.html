@@ -102,6 +102,87 @@
   			      <li class="fragment">Anything people ask for more than twice</li>
   			    </ul>
   			</section>        
+
+        <section>
+          <h2>Build Your Own</h2>
+        </section>
+
+        <section>
+          <h2>Build Your Own</h2>
+          <h3>Is there an API?</h3>
+          <ul class="fragment">
+            <li><a href="http://developer.nytimes.com/docs">New York Times</a><br>
+            (Congress, campaign finance, event listings, movie reviews, etc.)
+            </li>
+            <li><a href="http://services.sunlightlabs.com">Sunlight Labs</a><br>
+            (State legislation, Congressional Record, etc.)
+            </li>
+            <li><a href="http://www.npr.org/api/index.php">NPR</a><br>
+            (Stories, stations, transcripts, etc.)
+            </li>
+            <li><a href="http://elections.huffingtonpost.com/pollster/api">HuffPost Pollster</a><br>
+            (Polling)
+            </li>
+            <li><a href="https://github.com/dwillis/post_comments">Washington Post</a><br>
+            (Comments)
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Build Your Own</h2>
+          <h3>Is there an API?</h3>
+          <ul>
+            <li><a href="http://www.fcc.gov/developers">Federal Communications Commission</a><br>
+            (Public inspection files, licenses, broadband, etc.)
+            </li>
+            <li><a href="http://www.nlm.nih.gov/api/index.html">National Institutes of Health</a><br>
+            (Chemical names, directories, genetics
+            <li><a href="http://developer.dol.gov">Department of Labor</a><br>
+            (Health &amp; safety, summer jobs, BLS data, etc.)
+          </ul>
+        </section>
+
+        <section>
+          <pre><code>
+            $.ajax({
+            });
+          </code></pre>
+        </section>
+
+        <section>
+          <pre><code>
+            $.ajax({
+              dataType: 'jsonp',
+              url: apiUrl,
+            });
+          </code></pre>
+        </section>
+
+        <section>
+          <pre><code>
+              $.ajax({
+                dataType: 'jsonp',
+                url: apiUrl,
+                success: function(data) {
+                  doSomething();
+                }
+              });
+          </code></pre>
+        </section>
+
+        <section>
+          <h2>Build Your Own</h2>
+          <h3>Make it look nice</h3>
+          <img src="images/fec_dashboard_nocss.png"/>
+        </section>
+
+        <section>
+          <h2>Build Your Own</h2>
+          <h3>Make it look nice</h3>
+          <img src="images/fec_dashboard_css.png"/>
+          <a href="http://twitter.github.com/bootstrap/">http://twitter.github.com/bootstrap/</a>
+        </section>
         
 				<section>
 				  <h2>Links, etc.</h2>
