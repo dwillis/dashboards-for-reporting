@@ -171,7 +171,7 @@
         <section>
           <pre><code>
             $.ajax({
-              dataType: 'jsonp',
+              dataType: "jsonp",
               url: apiUrl,
             });
           </code></pre>
@@ -183,7 +183,7 @@
                 dataType: 'jsonp',
                 url: apiUrl,
                 success: function(data) {
-                  doSomething();
+                  doSomething(data);
                 }
               });
           </code></pre>
